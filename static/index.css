@@ -1,0 +1,35 @@
+.main {
+    width: 600px;
+    height: 600px;
+    margin-left: 620px;
+    margin-top: 150px;
+    border: solid black 2px;
+    border-radius: 10px;
+}
+.button {
+    width: 200px;
+    height 100px;
+    position: absolute;
+    left: 370px;
+    top: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.button:last-of-type {
+    position: absolute;
+    left: 370px;
+    top: 400px;
+}
+
+.button:hover {
+    color:red;
+}
+
+.result {
+    position: absolute;
+    left: 900px;
+    top: 800px;
+    color: red;
+    font-size: 20px;
+}
